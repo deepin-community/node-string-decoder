@@ -1,0 +1,9 @@
+# False Positives
+node-string-decoder source: source-is-missing test/common/countdown.js*
+node-string-decoder source: source-is-missing test/common/dns.js*
+node-string-decoder source: source-is-missing test/common/duplexpair.js*
+node-string-decoder source: source-contains-prebuilt-javascript-object test/common/countdown.js*
+node-string-decoder source: source-contains-prebuilt-javascript-object test/common/dns.js*
+node-string-decoder source: source-contains-prebuilt-javascript-object test/common/duplexpair.js*
+node-string-decoder source: very-long-line-length-in-source-file test/common/countdown.js*
+node-string-decoder source: very-long-line-length-in-source-file test/common/dns.js*

@@ -1,0 +1,1 @@
+tap -R spec test/parallel/*.js test/ours/*.js

@@ -1,0 +1,7 @@
+version=4
+opts=\
+  dversionmangle=s/@DEB_EXT@//,\
+  filenamemangle=s%(?:.*?/)?v?@ANY_VERSION@(@ARCHIVE_EXT@)$%@PACKAGE@-$1$2% \
+  https://github.com/nodejs/string_decoder/tags \
+    (?:.*?/)?v?@ANY_VERSION@@ARCHIVE_EXT@$
+
