@@ -1,1 +1,1 @@
-tap -R spec test/parallel/*.js test/ours/*.js
+tap -R spec --no-cov test/parallel/*.js test/common/*.js
